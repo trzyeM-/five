@@ -5,6 +5,7 @@
   five.upHigh = function() { return '⁵'; };
   five.downLow = function() { return '₅'; };
   five.roman = function() { return 'V'; };
+  five.random = function() { return five(); };
 
   five.convertTo = function(anotherNumber) {
     // If you need other numbers I'd strongly suggest you call
